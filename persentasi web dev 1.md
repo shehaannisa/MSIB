@@ -49,14 +49,8 @@
 - **Bagaimana peran HTML pada web development?** : Web browser seperti Chrome, Firefox, Edge, Safari, atau Opera akan membaca dokumen HTML. Dokumen HTML yang berisi tag-tag HTML akan memberitahu browser bagaimana cara menampilkan sebuah konten
 - **Kerangka HTML**
   - Syntax dibawah ini biasa disebut dengan kerangka bahasa pemrograman HTML. Didalam website selalu ada title untuk tiap-tiap web, untuk memasukkan title didalam web kamu harus mengetikkan diantara tag title (dapat diisikan dengan nama website kamu atau yang lainnya). Untuk memasukkan konten-konten, kamu dapat memasukkannya atau mengetikkannya didalam program tepat diantara tag body
-    ![Contoh Kerangka HTML](https://3.bp.blogspot.com/-hFWYcipTHJU/WLQo5RgSPoI/AAAAAAAAAEI/HOFWpbJY3LMjAlDNdPI5DxjhNAZ0ZsPigCLcB/s1600/kerangka-html2.png)
-- **Tag HTML**
-  Tag adalah sebuah penanda awalan dan akhiran dari sebuah elemen di HTML. Tag dibuat dengan kurung siku (<...>), lalu di dalamnya berisi nama tag dan kadang juga ditambahkan dengan atribut. Tag selalu ditulis berpasangan. Ada tag pembuka dan ada tag penutupnya. Namun, ada juga beberapa tag yang tidak memiliki pasangan penutup. Tag penutup ditulis dengan menambahkan garis miring (/) di depan nama tag.
-- **Contoh Tag HTML**
-  ![Tag 1](https://www.petanikode.com/img/js/dom/pohon-html.gif)
-  ![Tag 1](https://www.petanikode.com/img/html/tag/element.png)
-```
-<!DOCTYPE html>
+ 
+``` <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -73,8 +67,12 @@
       <li>Instagram</li>
     </ol>
   </body>
-</html>
-```
+</html> ```
+- **Tag HTML**
+  Tag adalah sebuah penanda awalan dan akhiran dari sebuah elemen di HTML. Tag dibuat dengan kurung siku (<...>), lalu di dalamnya berisi nama tag dan kadang juga ditambahkan dengan atribut. Tag selalu ditulis berpasangan. Ada tag pembuka dan ada tag penutupnya. Namun, ada juga beberapa tag yang tidak memiliki pasangan penutup. Tag penutup ditulis dengan menambahkan garis miring (/) di depan nama tag.
+  ``` Tag Pembuka <h1> Tag Penutup </h1> ```
+  
+
 ### **----- CSS (_Cascading Style Sheets_) -----**
 
 - **CSS** adalah bahasa yang digunakan untuk mendesain halaman website

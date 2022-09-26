@@ -55,27 +55,6 @@
 - **Contoh Tag HTML**
   ![Tag 1](https://www.petanikode.com/img/js/dom/pohon-html.gif)
   ![Tag 1](https://www.petanikode.com/img/html/tag/element.png)
-  
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Website Sheha</title>
-</head>
-<body>
-  <h1>Hello World</h1>
-  <p>Ini adalah website saya</p>
-  <ul>
-    <li>Instagram</li>
-    <li>Facebook</li>
-    <li>Twitter</li>
-  </ul>
-</body>
-</html>
-
-* Pada contoh di atas, terdapat satu elemen <p> dengan atribut align="center" dan memiliki isi berupa teks, yakni Hello World!.
 
 ### **----- CSS (_Cascading Style Sheets_) -----**
 

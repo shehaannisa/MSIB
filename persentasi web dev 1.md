@@ -72,19 +72,42 @@
 ```
 - **Tag HTML**
   Tag adalah sebuah penanda awalan dan akhiran dari sebuah elemen di HTML. Tag dibuat dengan kurung siku (<...>), lalu di dalamnya berisi nama tag dan kadang juga ditambahkan dengan atribut. Tag selalu ditulis berpasangan. Ada tag pembuka dan ada tag penutupnya. Namun, ada juga beberapa tag yang tidak memiliki pasangan penutup. Tag penutup ditulis dengan menambahkan garis miring (/) di depan nama tag.
+``` Tag Pembuka <h1> Tag Penutup </h1> ```
     - **Single Tag**
     ``` contoh : </br> ```
     - **HTML Double Tag**
     ``` contoh : <p> </p> ```
     - **HTML Comment**
     ``` contoh : <!-- --> ```
-``` 
-  Tag Pembuka <h1> Tag Penutup </h1> 
+    - **HTML Attributes** : properties dari sebuah element HTML
+    ``` contohnya : id, class, name ```
+- **Membuat Tabel**
+``` <table border="1">
+       <thead>
+           <tr>
+               <td>Nama</td>
+               <td>Umur</td>
+               <td>Jurusan</td>
+           </tr>
+       </thead>
+       <tbody>
+           <tr>
+               <td>Sheha Annisa</td>
+               <td>20 Tahun</td>
+               <td>Teknik Informatika</td>
+           </tr>
+       </tbody>
+   </table>
+</html> 
 ```
-- **HTML Attributes** : properties dari sebuah element HTML
-``` contohnya : id, class, name ```
+  - **Penjelasan** :
+  ``` - <thead> : membungkus konten bagian judul atau kepala tabel
+      - <tr> : membuat baris pada tabel
+      - <td> : membuat kolom di setiap baris pada tabel
+      - <tbody> : membungkus konten bagian isi atau tubuh dari tabel 
+  ```
+    
   
-
 ### **----- CSS (_Cascading Style Sheets_) -----**
 
 - **CSS** adalah bahasa yang digunakan untuk mendesain halaman website

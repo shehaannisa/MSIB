@@ -70,12 +70,19 @@
   </body>
 </html> 
 ```
-
 - **Tag HTML**
   Tag adalah sebuah penanda awalan dan akhiran dari sebuah elemen di HTML. Tag dibuat dengan kurung siku (<...>), lalu di dalamnya berisi nama tag dan kadang juga ditambahkan dengan atribut. Tag selalu ditulis berpasangan. Ada tag pembuka dan ada tag penutupnya. Namun, ada juga beberapa tag yang tidak memiliki pasangan penutup. Tag penutup ditulis dengan menambahkan garis miring (/) di depan nama tag.
+    - **Single Tag**
+    ``` contoh : </br> ```
+    - **HTML Double Tag**
+    ``` contoh : <p> </p> ```
+    - **HTML Comment**
+    ``` contoh : <!-- --> ```
 ``` 
   Tag Pembuka <h1> Tag Penutup </h1> 
 ```
+- **HTML Attributes** : properties dari sebuah element HTML
+``` contohnya : id, class, name ```
   
 
 ### **----- CSS (_Cascading Style Sheets_) -----**

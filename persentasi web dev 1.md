@@ -50,7 +50,8 @@
 - **Kerangka HTML**
   - Syntax dibawah ini biasa disebut dengan kerangka bahasa pemrograman HTML. Didalam website selalu ada title untuk tiap-tiap web, untuk memasukkan title didalam web kamu harus mengetikkan diantara tag title (dapat diisikan dengan nama website kamu atau yang lainnya). Untuk memasukkan konten-konten, kamu dapat memasukkannya atau mengetikkannya didalam program tepat diantara tag body
  
-``` <!DOCTYPE html>
+``` 
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -67,10 +68,14 @@
       <li>Instagram</li>
     </ol>
   </body>
-</html> ```
+</html> 
+```
+
 - **Tag HTML**
   Tag adalah sebuah penanda awalan dan akhiran dari sebuah elemen di HTML. Tag dibuat dengan kurung siku (<...>), lalu di dalamnya berisi nama tag dan kadang juga ditambahkan dengan atribut. Tag selalu ditulis berpasangan. Ada tag pembuka dan ada tag penutupnya. Namun, ada juga beberapa tag yang tidak memiliki pasangan penutup. Tag penutup ditulis dengan menambahkan garis miring (/) di depan nama tag.
-  ``` Tag Pembuka <h1> Tag Penutup </h1> ```
+``` 
+  Tag Pembuka <h1> Tag Penutup </h1> 
+```
   
 
 ### **----- CSS (_Cascading Style Sheets_) -----**

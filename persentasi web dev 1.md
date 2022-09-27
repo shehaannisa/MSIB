@@ -63,6 +63,11 @@
   <body>
     <h1>Hi.. I'm Sheha</h1>
     <h2>Track Back End Development</h2>
+    <p>
+      Back end merupakan sisi server atau server side dari sebuah website atau aplikasi. <br />
+      Jadi, back end developer adalah seorang yang memiliki keahlian untuk merancang atau <br />
+      mengembangkan software di sisi server yang berkaitan dengan logika serta database
+    </p>
     <img src="https://media.istockphoto.com/photos/encryption-your-data-binary-code-and-digital-lock-hacker-attack-and-picture-id1346223165?b=1&k=20&m=1346223165&s=170667a&w=0&h=q6W4oLmto2l8of4xCGXI2aYdSBbLbgC5mZs1sFUWgj8=" />
     <ol type="a">
       <li>Linkedin</li>

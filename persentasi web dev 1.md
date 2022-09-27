@@ -143,7 +143,7 @@
       background: grey;
   }
 ```
-    - Selektor dengan Atribut
+   - Selektor dengan Atribut
 ```
 input[type=text]{
       background: yellow;

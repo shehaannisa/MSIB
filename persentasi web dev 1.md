@@ -156,7 +156,7 @@
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Laudantium unde ipsum molestiae deleniti iusto eos id vel voluptates, exercitationem autem!</p>
     </section>
   ```
-- **Deploy HTML menggunakan Netfly**
+- **Deploy HTML menggunakan Netlify**
 
 1. Buat repository GitHub yang dalamnya berisi file HTML yang sudah dibuat tadi
 2. Buka https://app.netlify.com/ di browser, lalu login dengan akun GitHub (jika belum punya akun daftar terlebih dahulu)

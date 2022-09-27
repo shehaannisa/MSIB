@@ -61,7 +61,7 @@
   </head>
   <body>
     <h1>Hi.. I'm Sheha</h1>
-    <img src="./me.png" alt="me" width="200" />
+    <h2> Track Back Ende Development </h2>
     <ol type="a">
       <li>Linkedin</li>
       <li>Twitter</li>
@@ -106,8 +106,6 @@
       - <td> : membuat kolom di setiap baris pada tabel
       - <tbody> : membungkus konten bagian isi atau tubuh dari tabel 
   ```
-    
-  
 ### **----- CSS (_Cascading Style Sheets_) -----**
 
 - **CSS** adalah bahasa yang digunakan untuk mendesain halaman website
@@ -119,12 +117,32 @@
 
 - **Syntax Dasar CSS**
   ![Syntax Dasar CSS](https://www.petanikode.com/img/css-sintaks/struktur-dasar-sintaks-css.avif)
-  - File .CSS :
-    ![Contoh Syntax Dasar CSS](https://fadilajuni.files.wordpress.com/2016/12/258b9-css2beksternalnay.png?w=400&h=149&zoom=2)
-  - File .HTML :
-    ![HTML nya](https://fadilajuni.files.wordpress.com/2016/12/0f5fe-pemanggilannay.png?w=400&h=200&zoom=2)
-  - Output :
-    ![Outputnya nya](https://fadilajuni.files.wordpress.com/2016/12/7b673-hasil2bepmanggila.png?w=400&h=224&zoom=2)
+  - **Selektor**  :
+  - Contoh : 
+  ``` h1 {
+          color: red;
+      } ```
+  Selektor dapat berupa nama tag, class, id, dan atribut
+  - Contoh :
+  ``` /* Selektor dengan nama tag */
+h2 {
+    color: blue
+}
+
+/* Selektor degnan class */
+.bg-yellow {
+    backgound-color: yellow;
+}
+
+/* selektor dengan ID elemen */
+#header {
+    background: grey;
+}
+
+/* Selektor dengan Atribut */
+input[type=text]{
+    background: yellow;
+} ```
 - **CSS Flexbox** adalah cara untuk mengatur layout, memiliki kemampuan untuk menyesuaikan layout secara otomatis
 
   - **Ordering & Orientation**

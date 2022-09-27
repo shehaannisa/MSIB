@@ -280,13 +280,13 @@
       4. column-reverse: letak item child membentuk sebuah baris dari bawah ke atas
     - **flex-wrap** : flex secara default akan membuat tata letak item children dalam 1 line saja. flex akan menyesuaikan space yang ada. Namun jika kamu ingin membatasi jumlah item children dalam 1 line lalu item children yang lain akan pindah ke posisi line yang baru, maka kita bisa menggunakan flex-wrap
       <br> ![3](https://www.gamelab.id/uploads/modules/NEWS/817/Group%2023.png?1628228598739)
-      <br> ![3](https://www.gamelab.id/uploads/modules/NEWS/817/Group%2024.png?1628228613938)
+      <br> ![4](https://www.gamelab.id/uploads/modules/NEWS/817/Group%2024.png?1628228613938)
       1. no-wrap (default): secara default , flex tidak menggunakan flex-wrap
       2. wrap: flex item akan memiliki beberapa line dari atas ke bawah jika space dalam 1 line sudah full width.
       3. wrap-reverse: kebalikan dari wrap yaitu flex item akan memiliki beberapa line dari bawah ke atas jika space dalam 1 line sudah full width
     - **flex-flow** : digunakan sebagai shortcut untuk set up flex-direction dan flex-wrap bersamaan
     - **order** : berfungsi untuk ordering item mana yang ingin kita atur posisinya berdasarkan urutan order
-      <br>![3](https://lh3.googleusercontent.com/F_rkGnqbpaoUvmoTyTnIzNuqG2345-FKNUdMXV62mDR-ZhMb4jTj5K7Ip5y5lg80h9KuuxH9KjBVlPnu02HB7RYWKaEq2xgdauNPFK1uqiJl-dWoIw5R32fCmTPkCOnpXqtxTx0)
+      <br>![5](https://lh3.googleusercontent.com/F_rkGnqbpaoUvmoTyTnIzNuqG2345-FKNUdMXV62mDR-ZhMb4jTj5K7Ip5y5lg80h9KuuxH9KjBVlPnu02HB7RYWKaEq2xgdauNPFK1uqiJl-dWoIw5R32fCmTPkCOnpXqtxTx0)
       1. 1 : Item child yang di set order -1, maka item child tersebut akan berada di ordering paling awal atau paling kiri
       2. 2 : Flex secara default memiliki order 0 pada setiap item child. Ini berarti 0 akan membuat item child sesuai urutan pada html
       3. 5: Item child yang di set order 1, maka item child tersebut akan berada di ordering paling akhir atau paling kanan

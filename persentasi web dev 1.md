@@ -357,7 +357,13 @@
 ```
 console.log() // output :
 ```
-
+- **PseudoCode sederhana menggunakan JavaScript**
+```
+const nama = "Sheha";
+console.log("Nama Saya " + nama);
+// Output : 
+// Nama Saya Sheha
+```
 - **Big-O Notation** adalah sebuah cara atau metode untuk melakukan analisa terhadap sebuah algoritma pemrograman terhadap waktu eksekusi. Tentang seberapa efisien dan kompleksitas barisan kode dalam dimensi waktu
 
 ### **----- JavaScript -----**

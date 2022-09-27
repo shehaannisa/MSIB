@@ -279,8 +279,8 @@
       3. column: letak item child membentuk sebuah baris dari atas ke bawah
       4. column-reverse: letak item child membentuk sebuah baris dari bawah ke atas
     - **flex-wrap** : flex secara default akan membuat tata letak item children dalam 1 line saja. flex akan menyesuaikan space yang ada. Namun jika kamu ingin membatasi jumlah item children dalam 1 line lalu item children yang lain akan pindah ke posisi line yang baru, maka kita bisa menggunakan flex-wrap
-      <br>![3](https://www.gamelab.id/uploads/modules/NEWS/817/Group%2023.png?1628228598739)
-      <br>![3](https://www.gamelab.id/uploads/modules/NEWS/817/Group%2024.png?1628228613938)
+      <br> ![3](https://www.gamelab.id/uploads/modules/NEWS/817/Group%2023.png?1628228598739)
+      <br> ![3](https://www.gamelab.id/uploads/modules/NEWS/817/Group%2024.png?1628228613938)
       1. no-wrap (default): secara default , flex tidak menggunakan flex-wrap
       2. wrap: flex item akan memiliki beberapa line dari atas ke bawah jika space dalam 1 line sudah full width.
       3. wrap-reverse: kebalikan dari wrap yaitu flex item akan memiliki beberapa line dari bawah ke atas jika space dalam 1 line sudah full width

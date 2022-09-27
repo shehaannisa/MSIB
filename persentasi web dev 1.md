@@ -123,9 +123,9 @@
           color: red;
       } 
     ```
-  **Selektor dapat berupa nama tag, class, id, dan atribut
-  - Contoh :
-  - **Selektor dengan nama tag
+  Selektor dapat berupa nama tag, class, id, dan atribut
+  - **Contoh :**
+  - Selektor dengan nama tag
 ```
   h2 {
       color: blue
@@ -143,7 +143,7 @@
       background: grey;
   }
 ```
-   - **Selektor dengan Atribut
+  - **Selektor dengan Atribut
 ```
 input[type=text]{
       background: yellow;

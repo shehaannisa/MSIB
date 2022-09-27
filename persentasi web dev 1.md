@@ -88,7 +88,10 @@
 
 - **Membuat Tabel**
 
-```<table border="1">
+```
+<!DOCTYPE html>
+<html lang="en">
+<table border="1">
        <thead>
            <tr>
                <td>Nama</td>

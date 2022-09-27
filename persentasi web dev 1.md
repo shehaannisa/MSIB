@@ -118,9 +118,11 @@
 - **Syntax Dasar CSS**
   - **Selektor**  :
   - Contoh : 
-    ``` h1 {
+    ``` 
+    h1 {
           color: red;
-      } ```
+      } 
+    ```
   **Selektor dapat berupa nama tag, class, id, dan atribut
   - Contoh :
   - **Selektor dengan nama tag

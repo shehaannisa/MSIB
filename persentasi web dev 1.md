@@ -380,11 +380,17 @@ console.log("Nama Saya " + nama);
      - Console log juga tempat kita untuk melakukan debugging (mengetahui error pada code) pada pemograman web
    - **Tipe data** adalah klasifikasi yang kita berikan untuk berbagai macam data yang di gunakan dalam programing ada 6 yaitu
      - number
+     <br> Tipe data number adalah tipe data yang mengandung semua angka termasuk angka desimal
      - string
+     <br> Tipe data string adalah grup karakter yang ada pada keyboard laptop/PC kita yaitu letters (huruf), number (angka), spaces (spasi), symbol, dan lainnya
      - boolean
+     <br> Tipe data boolean adalah tipe data yang hanya mempunyai 2 buah nilai
      - null
+     <br> Tipe data yang diartikan bahwa sebuah variable/data tidak memiliki nilai
      - undefined
+     <br> Tipe data yang merepresentasikan varibel/data yang tidak memiliki nilai
      - object
+     <br> Koleksi data yang saling berhubungan (related). Tipe data pbject dapat menyimpan data dengan tipe data apapun (number, string, boolean, dan lainnya)
    - **Operator**.
      - Assignment (=)
        <br>Menyimpan sebuah nilai dalam variable

@@ -116,12 +116,13 @@
 3. **External CSS** : sebuah file CSS terpisah yang disambungkan dengan file HTML dengan menggunakan element < link >
 
 - **Syntax Dasar CSS**
-  ![Syntax Dasar CSS](https://www.petanikode.com/img/css-sintaks/struktur-dasar-sintaks-css.avif)
+- ![Syntax Dasar CSS](https://www.petanikode.com/img/css-sintaks/struktur-dasar-sintaks-css.avif)
   - **Selektor**  :
   - Contoh : 
   ``` h1 {
           color: red;
-      } ```
+      } 
+  ```
   Selektor dapat berupa nama tag, class, id, dan atribut
   - Contoh :
   ``` /* Selektor dengan nama tag */

@@ -118,27 +118,28 @@
 - **Syntax Dasar CSS**
   - **Selektor**  :
   - Contoh : 
-    ```h1 {
+    ``` h1 {
           color: red;
       } ```
   **Selektor dapat berupa nama tag, class, id, dan atribut
   - Contoh :
-  ``` /* Selektor dengan nama tag */
-h2 {
-    color: blue
-}
-/* Selektor degnan class */
-.bg-yellow {
-    backgound-color: yellow;
-}
-/* selektor dengan ID elemen */
-#header {
-    background: grey;
-}
-/* Selektor dengan Atribut */
-input[type=text]{
-    background: yellow;
-} ```
+``` /* Selektor dengan nama tag */
+  h2 {
+      color: blue
+  }
+    Selektor degnan class
+  .bg-yellow {
+      backgound-color: yellow;
+  }
+    Selektor dengan ID elemen
+  #header {
+      background: grey;
+  }
+    Selektor dengan Atribut */
+  input[type=text]{
+      background: yellow;
+  } 
+```
 - **CSS Flexbox** adalah cara untuk mengatur layout, memiliki kemampuan untuk menyesuaikan layout secara otomatis
 
   - **Ordering & Orientation**

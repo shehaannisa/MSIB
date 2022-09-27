@@ -131,19 +131,19 @@
       color: blue
   } 
  ```
-    - Selektor dengan class
+  - Selektor dengan class
 ```
 .bg-yellow {
       backgound-color: yellow;
   }
 ```
-    - Selektor dengan ID elemen
+  - Selektor dengan ID elemen
  ```
  #header {
       background: grey;
   }
 ```
-    - Selektor dengan Atribut
+  - Selektor dengan Atribut
 ```
 input[type=text]{
       background: yellow;

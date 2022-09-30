@@ -158,15 +158,16 @@ console.log(a); // 19
 console.log(typeof a); // number
 console.log(a instanceof Number); // false    
 ```
-    - Properties
-     1. 
-    - Method 
-     1. toExponential()
+     - Properties
+      1. EPSILON
+         <br> 
+     - Method 
+      1. toExponential()
         <br> mengonversi angka ke notasi eksponensial dan mengembalikannya sebagai string
         ```
         (2).toExponential(3); // 2.000e+0
         ```
-     2. 
+      2. 
 3. boolean - nilai benar dari sebuah pernyataan yang dituliskan sebagai true atau false
 ```
 

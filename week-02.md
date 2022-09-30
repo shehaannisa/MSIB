@@ -152,15 +152,16 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
          console.log(hewan.includes("saur"); // Output : true
          ```     
 2. **number** - bilangan bulat, pecahan, dan lain-lain yang berbentuk angka
-```
-const a = 19;
-console.log(a); // 19
-console.log(typeof a); // number
-console.log(a instanceof Number); // false    
-```
+   ```
+   const a = 19;
+   console.log(a); // 19
+   console.log(typeof a); // number
+   console.log(a instanceof Number); // false    
+   ```
      - Properties
-      1. EPSILON
-         <br> 
+      1. Epsilon
+         <br> digunakan untuk 
+      2. Nan
      - Method 
       1. toExponential()
         <br> mengonversi angka ke notasi eksponensial dan mengembalikannya sebagai string

@@ -1,6 +1,6 @@
 #### Sheha Luthfi Annisa | (Back-End Development)
 
-# **Writing Web Development Basic Minggu 1**
+# **Writing Web Development Basic Minggu 2**
 
 ## **Javascript Dasar - Scope and FunctionJavaScript**
 
@@ -88,6 +88,11 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
         <br> Ubah nilai unicode menjadi karakter
      5. indexOf()
         <br> Kembalikan posisi kemunculan pertama yang ditemukan dari teks yang ditentukan dalam sebuah string
+        ```
+        const str = 'saya sedang belajar javascript';
+        console.log(str.indexOf('a')); // 1 :: s(a)ya ... 
+        console.log(str.indexOf('ja')); // 16 :: ... bela(ja)r javascript
+        ```
      6. lastIndexOf()
         <br> Kembalikan posisi kemunculan terakhir yang ditemukan dari teks yang ditentukan dalam sebuah string
      7. localeCompare()
@@ -100,18 +105,40 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
          <br> Cari string untuk nilai dan kembalikan posisi kecocokan
      11. slice()
          <br> Ekstrak bagian dari string dan kembalikan string baru
+         <br> Sintaks : slice(indeksAwal, indeksAkhir);
+         ```
+         const str = 'saya sedang belajar javascript';
+         console.log(str.slice(5, 11)); // sedang
+         console.log(str.slice(5)); // sedang belajar javascript
+         ```
      12. split()
-         <br> Pisahkan string ke dalam array substring
+         <br> Memisahkan string ke dalam array substring
+         <br> Sintaks : split(separator, limit);
+         ```
+         const str = 'saya sedang belajar javascript';
+         console.log(str.split()); // ["saya sedang belajar javascript"]
+         console.log(str.split(' ')); // ["saya", "sedang", "belajar", "javascript"]
+         console.log(str.split(' ', 2)); //  ["saya", "sedang"]
+         ```
      13. substr()
          <br> Ekstrak bagian dari string mulai dari indeks tertentu melalui sejumlah karakter tertentu
      14. substring()
          <br> Ekstrak bagian dari string antara dua posisi yang ditentukan
+         ```
+         const str = 'saya sedang belajar javascript';
+         console.log(str.substring(1, 3)); // ay
+         console.log(str.substring(5)); // sedang belajar javascript
+         ```
      15. toLocaleLowerCase()
          <br> Ubah string menjadi huruf kecil, sesuai dengan lokal host
      16. toLocaleUpperCase()
          <br> Ubah string menjadi huruf besar, sesuai dengan lokal host
      17. toLowerCase()
          <br> Ubah string menjadi huruf kecil
+         ```
+         const str = 'Skilvul';
+         console.log(str.toLowerCase()); //Output: skilvul
+         ```
      18. toString()
          <br> Kembalikan nilai objek string
      19. toUpperCase()

@@ -71,7 +71,16 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
         ```
      3. Prototype
         <br> Menambah metode dan properti ke dalam sebuah objek
-
+        ```
+        String.prototype.reverse = function(){ 
+          let s = " "    
+          for (let i = String(this).length-1; i >= 0; i-- { 
+            s = s + String(this)[i]
+          } 
+          return s 
+        }
+        console.log("hallo".reverse()) //Output: 'ollah'
+        ```
    - Method
      1. charAt()
         <br> Mengembalikan karakter pada index yang spesifik (posisi)

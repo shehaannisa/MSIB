@@ -70,10 +70,8 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
         <br> Mengembalikan panjang string JavaScript
 
         ```
-        const str = 'Skilvul Back End Development. Total kata:';
-        console.log(`${str} ${str.length}`);
-        // expected output: "Skilvul Back End Development. Total kata: 42"
-
+        const str = 'skilvul';
+        console.log(str.length); // Output: 7
         ```
 
      3. Prototype
@@ -118,6 +116,10 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
          <br> Kembalikan nilai objek string
      19. toUpperCase()
          <br> Ubah string menjadi huruf besar
+         ```
+         const str = 'skilvul';
+         console.log(str.toUpperCase()); //Output: SKILVUL
+         ```
      20. trim()
          <br> Hapus spasi dari kedua ujung string
      21. valueOf()

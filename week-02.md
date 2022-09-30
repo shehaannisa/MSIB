@@ -56,9 +56,6 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
 ## **Javascript Dasar - Data Type Built in Prototype and Method**
 
 ### Data Type
-
-- Data Primitive
-
 1. **string** - deretan karakter yang diapit oleh sepasang tanda kutip (" ")
    <br> berguna untuk menyimpan data yang dapat direpresentasikan dalam bentuk teks
 
@@ -189,18 +186,6 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
         console.log(parseInt(myString)); // Output: 27
         console.log(Number(myString)); //Output: 27
         ```
-3. boolean - nilai benar dari sebuah pernyataan yang dituliskan sebagai true atau false
-```
-
-```
-4. null - sebuah nilai yang berarti kosong atau menunjuk pada nilai yang tidak ada;
-5. undefined - berbeda dari null, undefined menandakan kondisi variabel yang belum diberi sebuah nilai. Jadi pernyataan "nilai variabel itu adalah undefined" sebenarnya kurang tepat, sebab variabelnya memang tidak mempunyai sebuah nilai;
-6. symbol - sebuah nilai unik yang dihasilkan tiap kali kita memanggil fungsi Symbol(). Nilai unik ini memiliki beberapa kegunaan seperti memberi nomor identifikasi unik dan berperan sebagai nama properti unik sebuah objek;
-
-- Non Primitive
-
-1. object - sebuah kumpulan pasangan properti dan nilai. Seperti objek dalam kehidupan sehari-hari saja. Misalnya objek Apel memiliki properti warna dengan nilai merah.
-
 ### Math
 <br> mempermudah dalam perhitungan matematika
 <br> contoh :
@@ -210,15 +195,37 @@ Math.LOG2E //Output: 1.4426
 Math.sqrt2 //Output: 1.4426 {menghitung akar dua}
 ```
    - Methods Math
-    1. Math.abs()
-       <br> mengembalikan nilai negatif menjadi nilai positif
-       ```
-       Math.abs(-13) //Output: 13     
-       ```
-    2. Math.pow()
-       <br> menghitung pangkat
-       ```
-       Math.pow(3, 2) //Output: 9
-       ```
-    3. Math.sqrt()
-       <br> menghitung akar
+   1. Math.abs()
+      <br> mengembalikan nilai negatif menjadi nilai positif
+      ```
+      Math.abs(-13) //Output: 13     
+      ```
+   2. Math.pow()
+      <br> menghitung pangkat
+      ```
+      Math.pow(3, 2) //Output: 9
+      ```
+   3. Math.sqrt()
+      <br> menghitung akar
+      ```
+      Math.sqrt(9) //Output: 3
+      ```
+   4. Math.round()
+      <br> membulatkan angka
+      ```
+      Math.round(123.456) //Output: 123
+      ```
+   5. Math.floor()
+      <br> membulatkan angka kebawah
+      ```
+      Math.floor(4.4) //Output: 4
+      Math.floor(4.9) //Output: 4
+      ```
+   6. Math.ceil()
+      <br> membulatkan angka keatas
+      ```
+      Math.ceil(5.6) //Output: 6
+      Math.ceil(5.1) //Output: 6
+      ```
+   7. Math.random()
+      <br> menampilkan angka acak

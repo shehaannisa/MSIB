@@ -160,7 +160,7 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
    ```
      - Properties (jarang digunakan, kebanyakan menggunakan methods number)
      - Methods
-        1. isNan()
+        1. isNan() --> NaN (Not a Number)
         <br> mengecek apakah ini bukan angka. Mengembalikan nilai Boolean, true jika nilai yang diuji NaN(bukan angka), false jika angka
         ```
         isNan("hallo") //true
@@ -182,7 +182,15 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
         pi.toFixed(1) //Output: '3.1'
         pi.toFixed(4) //Output: '3.1415'
         ```
-        4. 
+        4. parseInt() dan Number()
+        <br> mengubah string menjadi number
+        ```
+        myString = "27";
+        console.log(parseInt(myString)); // Output: 27
+        console.log(Number(myString)); //Output: 27
+        ```
+        5. 
+3. Math
 3. boolean - nilai benar dari sebuah pernyataan yang dituliskan sebagai true atau false
 ```
 

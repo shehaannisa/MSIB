@@ -189,7 +189,6 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
         console.log(parseInt(myString)); // Output: 27
         console.log(Number(myString)); //Output: 27
         ```
-        5. 
 3. boolean - nilai benar dari sebuah pernyataan yang dituliskan sebagai true atau false
 ```
 
@@ -210,5 +209,9 @@ Math.pi //Output: 3.1415
 Math.LOG2E //Output: 1.4426
 Math.sqrt2 //Output: 1.4426 {menghitung akar dua}
 ```
-    - Methods Math
-      1. Math.abs()
+      - Methods Math
+        1. Math.abs()
+           <br> mengembalikan nilai negatif menjadi nilai positif
+           ```
+           Math.abs(-13) //Output: 13     
+           ```

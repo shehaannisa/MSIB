@@ -158,14 +158,18 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
    console.log(typeof a); // number
    console.log(a instanceof Number); // false    
    ```
-     - Properties (jarang digunakan, kebanyakan menggunakam methods number)
+     - Properties (jarang digunakan, kebanyakan menggunakan methods number)
      - Methods
-        1. toExponential()
-        <br> mengonversi angka ke notasi eksponensial dan mengembalikannya sebagai string
+        1. isNan()
+        <br> mengecek apakah ini bukan angka. Mengembalikan nilai Boolean, true jika nilai yang diuji NaN(bukan angka), false jika angka
         ```
-        (2).toExponential(3); // 2.000e+0
+        isNan("hallo") //true
+        isNan(12345) //false, karena ini angka
+        isNan(true) //false, karena boolean true dianggap sebagai 1, dan 1 itu termasuk angka
+        isNan("12345") //false, karena ada angka didalam string
         ```
-        2. 
+        2. toString()
+        <br> 
 3. boolean - nilai benar dari sebuah pernyataan yang dituliskan sebagai true atau false
 ```
 

@@ -210,13 +210,15 @@ Math.LOG2E //Output: 1.4426
 Math.sqrt2 //Output: 1.4426 {menghitung akar dua}
 ```
    - Methods Math
-     1. Math.abs()
-        <br> mengembalikan nilai negatif menjadi nilai positif
-        ```
-        Math.abs(-13) //Output: 13     
-        ```
-     2. Math.pow()
-        <br> menghitung pangkat
-        ```
-        Math.pow(3, 2) //Output: 9
-        ```
+    1. Math.abs()
+       <br> mengembalikan nilai negatif menjadi nilai positif
+       ```
+       Math.abs(-13) //Output: 13     
+       ```
+    2. Math.pow()
+       <br> menghitung pangkat
+       ```
+       Math.pow(3, 2) //Output: 9
+       ```
+    3. Math.sqrt()
+       <br> menghitung akar

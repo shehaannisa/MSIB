@@ -169,7 +169,20 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
         isNan("12345") //false, karena ada angka didalam string
         ```
         2. toString()
-        <br> 
+        <br> untuk mengubah angka menjadi string
+        ```
+        let angka = 25
+        angka.toString() //Output: '25'
+        ```
+        3. toFixed()
+        <br> dapat menentukan jumlah angka dibelakang tanda koma. Return nilainya berupa string
+        ```
+        let pi = 3.14159265
+        pi.toFixed() //Output: '3'
+        pi.toFixed(1) //Output: '3.1'
+        pi.toFixed(4) //Output: '3.1415'
+        ```
+        4. 
 3. boolean - nilai benar dari sebuah pernyataan yang dituliskan sebagai true atau false
 ```
 

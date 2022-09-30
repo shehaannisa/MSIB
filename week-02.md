@@ -62,22 +62,20 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
 1. **string** - deretan karakter yang diapit oleh sepasang tanda kutip (" ")
    <br> berguna untuk menyimpan data yang dapat direpresentasikan dalam bentuk teks
 
-   - Properti
+   - Properties
 
      1. Constructor
         <br> Mengembalikan fungsi yang dibuat string prototipe objek
      2. Length
         <br> Mengembalikan panjang string JavaScript
-
         ```
         const str = 'skilvul';
         console.log(str.length); // Output: 7
         ```
-
      3. Prototype
         <br> Menambah metode dan properti ke dalam sebuah objek
 
-   - Beberapa String Method
+   - Method
      1. charAt()
         <br> Mengembalikan karakter pada index yang spesifik (posisi)
         ```
@@ -160,7 +158,9 @@ console.log(a); // 19
 console.log(typeof a); // number
 console.log(a instanceof Number); // false    
 ```
-    - Method Number
+    - Properties
+     1. 
+    - Method 
      1. toExponential()
         <br> mengonversi angka ke notasi eksponensial dan mengembalikannya sebagai string
         ```

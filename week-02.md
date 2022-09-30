@@ -123,8 +123,15 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
      21. valueOf()
          <br> Kembalikan nilai primitif objek string
 
-2. number - bilangan bulat, pecahan, dan lain-lain;
-3. boolean - nilai benar dari sebuah pernyataan yang dituliskan sebagai true atau false;
+2. number - bilangan bulat, pecahan, dan lain-lain yang berbentuk angka
+```
+var num1 = 55.00;     
+var num2 = 55;       
+```
+3. boolean - nilai benar dari sebuah pernyataan yang dituliskan sebagai true atau false
+```
+
+```
 4. null - sebuah nilai yang berarti kosong atau menunjuk pada nilai yang tidak ada;
 5. undefined - berbeda dari null, undefined menandakan kondisi variabel yang belum diberi sebuah nilai. Jadi pernyataan "nilai variabel itu adalah undefined" sebenarnya kurang tepat, sebab variabelnya memang tidak mempunyai sebuah nilai;
 6. symbol - sebuah nilai unik yang dihasilkan tiap kali kita memanggil fungsi Symbol(). Nilai unik ini memiliki beberapa kegunaan seperti memberi nomor identifikasi unik dan berperan sebagai nama properti unik sebuah objek;

@@ -77,23 +77,21 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
      3. Prototype
         <br> Menambah metode dan properti ke dalam sebuah objek
 
-   - Method
+   - Beberapa String Method
      1. charAt()
         <br> Mengembalikan karakter pada index yang spesifik (posisi)
-     2. charCodeAt()
-        <br> Mengembalikan unicode karakter pada indeks yang ditentukan
-     3. concat()
-        <br> Menggabungkan satu atau beberapa string dan kembalikan salinan string yang digabungkan
-     4. fromCharCode()
-        <br> Ubah nilai unicode menjadi karakter
-     5. indexOf()
+        ```
+        let hewan = 'Dinosaurus';
+        console.log(hewan.charAt(4)); //Output : s
+        ```
+     2. indexOf()
         <br> Kembalikan posisi kemunculan pertama yang ditemukan dari teks yang ditentukan dalam sebuah string
         ```
         const str = 'saya sedang belajar javascript';
         console.log(str.indexOf('a')); // 1 :: s(a)ya ... 
         console.log(str.indexOf('ja')); // 16 :: ... bela(ja)r javascript
         ```
-     6. lastIndexOf()
+     3. lastIndexOf()
         <br> Kembalikan posisi kemunculan terakhir yang ditemukan dari teks yang ditentukan dalam sebuah string
         ```
         const str = 'saya sedang belajar javascript';
@@ -101,19 +99,13 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
         console.log(str.lastIndexOf('ja')); // 20 :: ... belajar (ja)vascript
         console.log(str.lastIndexOf('ja', 19)); // 16 :: ... bela(ja)r javascript
         ```
-     7. localeCompare()
-        <br> Bandingkan dua string di lokal saat ini
-     8. match()
-        <br> Cari string untuk kecocokan dengan ekspresi reguler, dan kembalikan kecocokan
-     9. replace()
+     4. replace()
         <br> Cari string untuk nilai dan kembalikan string baru dengan nilai yang diganti
         ```
         const str = 'aku sedang belajar javascript';
         console.log(str.replace('aku', 'saya')); // saya sedang belajar javascript
         ```
-     10. search()
-         <br> Cari string untuk nilai dan kembalikan posisi kecocokan
-     11. slice()
+     5. slice()
          <br> Ekstrak bagian dari string dan kembalikan string baru
          <br> Sintaks : slice(indeksAwal, indeksAkhir);
          ```
@@ -121,7 +113,7 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
          console.log(str.slice(5, 11)); // sedang
          console.log(str.slice(5)); // sedang belajar javascript
          ```
-     12. split()
+     6. split()
          <br> Memisahkan string ke dalam array substring
          <br> Sintaks : split(separator, limit);
          ```
@@ -130,42 +122,37 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
          console.log(str.split(' ')); // ["saya", "sedang", "belajar", "javascript"]
          console.log(str.split(' ', 2)); //  ["saya", "sedang"]
          ```
-     13. substr()
-         <br> Ekstrak bagian dari string mulai dari indeks tertentu melalui sejumlah karakter tertentu
-     14. substring()
+     7. substring()
          <br> Ekstrak bagian dari string antara dua posisi yang ditentukan
          ```
          const str = 'saya sedang belajar javascript';
          console.log(str.substring(1, 3)); // ay
          console.log(str.substring(5)); // sedang belajar javascript
          ```
-     15. toLocaleLowerCase()
-         <br> Ubah string menjadi huruf kecil, sesuai dengan lokal host
-     16. toLocaleUpperCase()
-         <br> Ubah string menjadi huruf besar, sesuai dengan lokal host
-     17. toLowerCase()
+     8. toLowerCase()
          <br> Ubah string menjadi huruf kecil
          ```
          const str = 'Skilvul';
          console.log(str.toLowerCase()); //Output: skilvul
          ```
-     18. toString()
-         <br> Kembalikan nilai objek string
-     19. toUpperCase()
+     9. toUpperCase()
          <br> Ubah string menjadi huruf besar
          ```
          const str = 'skilvul';
          console.log(str.toUpperCase()); //Output: SKILVUL
          ```
-     20. trim()
+     10. trim()
          <br> Hapus spasi dari kedua ujung string
          ```
          const str = '     skilvul      ';
-         console.log(str.trim()); // "skilvul"
+         console.log(str.trim()); // 'skilvul'
          ```
-     21. valueOf()
-         <br> Kembalikan nilai primitif objek string
-
+     11. includes()
+         <br> mengembalikan nilai true or false apalah dalam variabel ada string tersebut
+         ```
+         let hewan = "Dinosaurus"
+         console.log(hewan.includes("saur"); // Output : true
+         ```     
 2. **number** - bilangan bulat, pecahan, dan lain-lain yang berbentuk angka
 ```
 const a = 19;
@@ -173,7 +160,7 @@ console.log(a); // 19
 console.log(typeof a); // number
 console.log(a instanceof Number); // false    
 ```
-   - Method Number
+    - Method Number
      1. toExponential()
         <br> mengonversi angka ke notasi eksponensial dan mengembalikannya sebagai string
         ```

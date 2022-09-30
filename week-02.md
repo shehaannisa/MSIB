@@ -95,12 +95,22 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
         ```
      6. lastIndexOf()
         <br> Kembalikan posisi kemunculan terakhir yang ditemukan dari teks yang ditentukan dalam sebuah string
+        ```
+        const str = 'saya sedang belajar javascript';
+        console.log(str.lastIndexOf('a')); // 23 :: ... belajar jav(a)script
+        console.log(str.lastIndexOf('ja')); // 20 :: ... belajar (ja)vascript
+        console.log(str.lastIndexOf('ja', 19)); // 16 :: ... bela(ja)r javascript
+        ```
      7. localeCompare()
         <br> Bandingkan dua string di lokal saat ini
      8. match()
         <br> Cari string untuk kecocokan dengan ekspresi reguler, dan kembalikan kecocokan
      9. replace()
         <br> Cari string untuk nilai dan kembalikan string baru dengan nilai yang diganti
+        ```
+        const str = 'aku sedang belajar javascript';
+        console.log(str.replace('aku', 'saya')); // saya sedang belajar javascript
+        ```
      10. search()
          <br> Cari string untuk nilai dan kembalikan posisi kecocokan
      11. slice()
@@ -149,14 +159,27 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
          ```
      20. trim()
          <br> Hapus spasi dari kedua ujung string
+         ```
+         const str = '     skilvul      ';
+         console.log(str.trim()); // "skilvul"
+         ```
      21. valueOf()
          <br> Kembalikan nilai primitif objek string
 
-2. number - bilangan bulat, pecahan, dan lain-lain yang berbentuk angka
+2. **number** - bilangan bulat, pecahan, dan lain-lain yang berbentuk angka
 ```
-var num1 = 55.00;     
-var num2 = 55;       
+const a = 19;
+console.log(a); // 19
+console.log(typeof a); // number
+console.log(a instanceof Number); // false    
 ```
+   - Method Number
+     1. toExponential()
+        <br> mengonversi angka ke notasi eksponensial dan mengembalikannya sebagai string
+        ```
+        (2).toExponential(3); // 2.000e+0
+        ```
+     2. 
 3. boolean - nilai benar dari sebuah pernyataan yang dituliskan sebagai true atau false
 ```
 

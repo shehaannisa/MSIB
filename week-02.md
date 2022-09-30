@@ -56,6 +56,7 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
 ## **Javascript Dasar - Data Type Built in Prototype and Method**
 
 ### Data Type
+  - Data Primitive
 1. **string** - deretan karakter yang diapit oleh sepasang tanda kutip (" ")
    <br> berguna untuk menyimpan data yang dapat direpresentasikan dalam bentuk teks
 
@@ -195,6 +196,19 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
         console.log(parseInt(myString)); // Output: 27
         console.log(Number(myString)); //Output: 27
         ```
+ - Data Non-Primitive
+  1. Object
+  <br> contoh:
+     ```
+     let a = [10]
+     let b = a
+     console.log(a === b) // true
+     a.push(10)
+     console.log(a) // [10, 10]
+     console.log(a === b) // true
+     ```
+  2. Array
+  3. Function
 ### Math
 <br> mempermudah dalam perhitungan matematika
 <br> contoh :

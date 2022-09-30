@@ -190,7 +190,6 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
         console.log(Number(myString)); //Output: 27
         ```
         5. 
-3. Math
 3. boolean - nilai benar dari sebuah pernyataan yang dituliskan sebagai true atau false
 ```
 
@@ -202,3 +201,14 @@ Function adalah sebuah blok kode dalam sebuah grup untuk menyelesaikan 1 task/1 
 - Non Primitive
 
 1. object - sebuah kumpulan pasangan properti dan nilai. Seperti objek dalam kehidupan sehari-hari saja. Misalnya objek Apel memiliki properti warna dengan nilai merah.
+
+### Math
+<br> mempermudah dalam perhitungan matematika
+<br> contoh :
+```
+Math.pi //Output: 3.1415
+Math.LOG2E //Output: 1.4426
+Math.sqrt2 //Output: 1.4426 {menghitung akar dua}
+```
+    - Methods Math
+      1. Math.abs()
